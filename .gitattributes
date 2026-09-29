@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.ipynb -text
+init-git.bat text eol=crlf
+run.bat text eol=crlf

@@ -1,0 +1,43 @@
+# ---- dataset (too large for git; download from Kaggle) ----
+measures_v2.csv
+data/raw/*
+!data/raw/.gitkeep
+*.csv.zip
+archive.zip
+
+# ---- generated intermediates ----
+features.parquet
+outputs/
+predictions.csv
+
+# ---- `run.py --quick` smoke-run artefacts ----
+figures_quick/
+outputs_quick/
+metrics_table_quick.csv
+measures_v2.full.csv
+*.parquet
+*.joblib
+!models/final_temperature_model.joblib
+*.pkl
+*.npz
+predictions.npz
+results.json
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- os / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ---- office lock files ----
+~$*
